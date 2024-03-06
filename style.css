@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Barriecito&family=Exo+2:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Kanit&family=Nunito:ital,wght@0,600;1,600&family=Poppins&family=Prompt:wght@500&family=Roboto:ital,wght@1,100&family=Teko:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font-family: 'Poppins';
+        font-weight: 600;
+}
+.header1{
+    padding-top: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px ;
+    margin: 10px;
+    background-color:#BFCBC2;
+    border-radius: 5px;
+    border: 2px solid #BFCBC2;
+    box-shadow: 2px 2px 7px -3px;
+}
+.box:hover{
+    border: 1px solid black;
+}
+/* .box11{
+
+} */
+.trans{
+    transition-property: background-color;
+        /* what it does is that between original and hover ekta puro transition kore */
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
